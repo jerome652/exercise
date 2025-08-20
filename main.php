@@ -1,7 +1,7 @@
 <?php
 
-$username = "RM13";
-$password  = "secret1234";
+$username = "jerome";
+$password  = "secret123";
 $storepassword = "secret123";
 $isloggedin = false;
 
@@ -15,10 +15,10 @@ if($password === $storepassword){
     echo "last login: $lastlogin <br>";
 
 }
-echo "session status".($isloggedin?"active": "inactive")."<br>";
+echo "session status: ".($isloggedin?"active": "inactive")."<br>";
 
 
 
-$orderTotal = 150.
+
 
 ?>
